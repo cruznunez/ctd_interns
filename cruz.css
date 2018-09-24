@@ -1,0 +1,80 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+  color: #9b9b9b;
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+  width: 120px;
+  padding-left: 24px;
+}
+
+.sidebar {
+  width: 12%;
+}
+.sidebar-div {
+  padding: 0.4em 1em;
+}
+.sidebar-div .fab {
+  width: 25px;
+}
+.sidebar-div .fas {
+  width: 25px;
+}
+.sign-up {
+  border: 2px solid white;
+  color: white;
+  width: 7em;
+  height: 3em;
+  margin-left: 1em;
+}
+.sign-in {
+  width: 7em;
+  height: 3em;
+  margin-left: 1em;
+}
+.content {
+  background-image: url(https://a3-images.myspacecdn.com/images03/25/2f3f6c77a0e34243b3bea3be5a4a0cab/full.jpg);
+  background-image: url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/13340085_10208187100148950_8150353303981344729_o.jpg?_nc_cat=109&oh=f79786a68d8e90ec0655448280cac177&oe=5C22570A);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 80%;
+}
+.profile-container {
+  background: #373737;
+  height: 20em;
+  margin: 0.8em;
+  padding: 0.5em;
+}
+.info {
+  background: rgba(33,33,33,.7);
+  font-weight: 100;
+  color: white;
+  padding: 1em;
+  width: 30%;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+/* flexxx */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
