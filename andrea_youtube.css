@@ -213,6 +213,14 @@ body {
   width: 25%;
 }
 
+#links-row {
+  width: 800px;
+}
+
+#descripion-container {
+  width: 30%;
+}
+
 .large-name {
   font-size: 25px;
   color: white;
@@ -283,6 +291,7 @@ body {
 
 .link-section-links {
   margin-bottom: 30px;
+  width: 25%;
 }
 
 .hr-thin {
