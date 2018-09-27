@@ -1,5 +1,10 @@
 * {box-sizing: border-box;}
 
+a {
+  font-size: 14px;
+  text-decoration:none;
+  color:blue;
+}
 .column {
   align-self: stretch;
 }
@@ -129,6 +134,13 @@ body {
   margin-right: 28px;
 }
 
+.avatar2 {
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+}
+
 #banner{
   background-color: #1a1a1a;
   width: 100%;
@@ -163,6 +175,8 @@ body {
 
 #red-box-container {
   margin-top: 35px;
+  padding: 6px;
+  width: 12%;
 }
 
 #verified-icon {
@@ -189,6 +203,16 @@ body {
   width: 7%;
 }
 
+#main-body {
+  color: white;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+#main-body .column {
+  width: 25%;
+}
+
 .large-name {
   font-size: 25px;
   color: white;
@@ -203,11 +227,21 @@ body {
   margin: 0px;
 }
 
-.red-box{
+.red-box {
   background-color: red;
   height: 35px;
-  width: 135px;
+  width: auto;
   text-align: center;
+  border-radius: 3px;
+}
+
+.alt-color {
+  background-color: white;
+}
+
+.white-box-container {
+  width: 30%;
+  margin-top: 10px;
 }
 
 .subscribe-button-text {
@@ -224,3 +258,48 @@ body {
   cursor: pointer;
 }
 
+.body-title {
+  font-size: 16px;
+  color: white;
+}
+
+.subtitle-1 {
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.subtitle-2 {
+  margin-top: 30px;
+}
+
+.body-text-space1 {
+  margin-bottom: 30px;
+}
+
+.fact-text {
+  color: #737373;
+  font-size: 13px;
+}
+
+.link-section-links {
+  margin-bottom: 30px;
+}
+
+.hr-thin {
+    border: 0;
+    height: 1px;
+    background: #333;
+    /*background-image: linear-gradient(to right, #333,#ccc, #333);*/
+}
+
+.channel-name {
+  margin: 2px 8px 8px 8px;
+}
+
+.featured-item {
+  margin-top: 25px;
+}
+
+.featured-title {
+  margin-top: 25px;
+}
