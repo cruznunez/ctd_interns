@@ -1,0 +1,76 @@
+/*.column {*/
+/*    float: left;*/
+/*    width: 33.33%;*/
+/*}*/
+
+/* Clear floats after the columns */
+/*.row:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
+
+/*#top-nav {*/
+/*  height:56px;*/
+/*  width: 100%;*/
+/*  margin: 0px;*/
+/*  padding-top: 0px;*/
+/*  padding-bottom: 0px;*/
+/*  padding-left: 16px;*/
+/*  padding-right: 16px;*/
+/*  position: absolute;*/
+/*  justify-content: space-between;*/
+/*  font-size: 10px;*/
+/*  align-items: center;*/
+/*}*/
+
+/*#hamburger-menu {*/
+/*  padding: 8px;*/
+/*  margin-right: 16px;*/
+/*  height: 40px;*/
+/*  width:40;*/
+/*  text-align: center;*/
+/*  position: relative;*/
+/*}*/
+
+/*.menu-line {*/
+/*    width: 20px;*/
+/*    height: 2px;*/
+/*    background-color: white;*/
+/*    margin: 4px;*/
+/*}*/
+
+/*#back-button {*/
+/*  color: rgb(255, 255, 255);*/
+/*  font-size: 0px;*/
+/*  height: 40px;*/
+/*  padding: 8px;*/
+/*  margin-right: 8px;*/
+  
+/*}*/
+
+/*#logo-icon-container {*/
+/*  align-items: center;*/
+/*  border-color: rgb(255, 255, 255);*/
+/*  color: rgb(255, 255, 255);*/
+/*  background-size: auto;*/
+  
+/*  width: 80px;*/
+/*  height: 24px;*/
+/*  position: relative;*/
+/*  justify-content: center;*/
+/*  vertical-align: middle;*/
+  
+/*}*/
+
+/*body {*/
+/*  background-color: white;*/
+    /*rgb(32,32,32);*/
+/*  margin: 0px;*/
+/*  padding: 0px;*/
+/*  font-family: Roboto, Arial, san-serif;*/
+/*}*/
+
+/*.logo {*/
+/*  background-size: 5px 5px;*/
+/*}*/
