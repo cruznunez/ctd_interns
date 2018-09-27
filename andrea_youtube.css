@@ -135,8 +135,57 @@ body {
   font-size: 10px; 
 }
 
+#top-row-of-banner {
+  justify-content: space-around;
+}
+
+#profile-pic-container {
+  margin-top: 16px;
+  margin-right: 335px;
+}
+
 #profile-pic {
   border-radius: 50px;
   width: 80px;
   height: 80px;
+}
+
+#name-and-subcribers {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+
+#red-box-container {
+  margin-top: 35px;
+}
+
+.large-name {
+  font-size: 25px;
+  color: white;
+  padding: 0px;
+  margin: 4px 0px;
+}
+
+.sub-heading-name {
+  font-size: 14px;
+  color: #595959;
+  padding: 0px;
+  margin: 0px;
+}
+
+.red-box{
+  background-color: red;
+  height: 35px;
+  width: 135px;
+  text-align: center;
+}
+
+.subscribe-button-text {
+  position: relative;
+  top: 25%;
+  font-size: 14px;
+  color: white;
 }
