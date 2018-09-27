@@ -16,7 +16,7 @@ body {
 }
 
 .sidebar {
-  width: 12%;
+  width: 150px;
 }
 .sidebar-div {
   padding: 0.4em 1em;
@@ -29,15 +29,15 @@ body {
 }
 .sign-up {
   border: 2px solid white;
-  color: white;
-  width: 7em;
-  height: 3em;
-  margin-left: 1em;
+  border-radius: 2px;
+  width: 6.25em;
+  height: 2.5em;
+  margin-left: 1.5em;
 }
 .sign-in {
-  width: 7em;
-  height: 3em;
-  margin-left: 1em;
+  width: 6.25em;
+  height: 2.5em;
+  margin-left: 1.5em;
 }
 .content {
   background-image: url(https://a3-images.myspacecdn.com/images03/25/2f3f6c77a0e34243b3bea3be5a4a0cab/full.jpg);
@@ -45,23 +45,57 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 80%;
+  width: calc(100vw - 150px);
 }
-.profile-container {
-  background: #373737;
-  height: 20em;
+.profile {
+  height: 16.5em;
   margin: 0.8em;
-  padding: 0.5em;
+  background: #373737;
+}
+img {
+  width: 130px;
+  margin: 0.3em;
+}
+.profile-btn {
+  padding: 0.5em 0.9em;
+  border-bottom: 1px solid rgb(70, 70, 70);
+}
+.btn-s {
+  padding: 0.5em 1.5em;
+  color: rgb(120, 120, 120);
+  font-size: 0.7em;
+}
+.filter-btn {
+  align-items: center;
+  background: #B4B4B4;
+  box-shadow: 0 0 10px black;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  font-size: 12px;
+  height: 2em;
+  justify-content: center;
+  width: 130px;
 }
 .info {
   background: rgba(33,33,33,.7);
   font-weight: 100;
   color: white;
   padding: 1em;
-  width: 30%;
+  width: 29%;
 }
-.justify-between {
-  justify-content: space-between;
+.links {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+.location {
+  border-top: 1px dotted white;
+  border-bottom: 1px dotted white;
+  margin-top: 0.5em;
+  padding: 1em 0;
+}
+.top10-item {
+  width: 60px;
 }
 
 /* flexxx */
@@ -72,9 +106,23 @@ body {
 .flex-column {
   flex-direction: column;
 }
+.justify-between {
+  justify-content: space-between;
+}
 .justify-center {
   justify-content: center;
 }
 .align-center {
   align-items: center;
+}
+
+/* colors */
+
+.white {
+  color: white;
+}
+
+/* helpers */
+.ml {
+  margin-left: 1em;
 }
