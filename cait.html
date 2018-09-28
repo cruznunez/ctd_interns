@@ -153,7 +153,7 @@
                       <div class="profile-image"></div>
                     </div>
                     <h4 class="profile-name">Cait</h4>
-                    <a>u/caitg</a>
+                    <a id="user-id">u/caitg</a>
 
                     <div class="bio">
                       <p>
@@ -222,10 +222,10 @@
     document.querySelector('.reddit-post').style.color = 'rgb(215, 218, 220)';
     document.querySelector('.profile-card').style.backgroundColor = '#1a1a1b';
     document.querySelector('.bio').style.color = 'white';
-    document.querySelector('.profile-name').style.color = 'white';
+    document.querySelector('.profile-name').style.color = 'white'
+    document.querySelector('#user-id').style.color = 'white'
     document.querySelector('.profile-h5').style.color = 'white';
     document.querySelector('#cake').style.color = 'white';
-
   }
   function switchLightMode() {
     document.querySelector('.reddit-overview').style.backgroundColor = '';
@@ -233,8 +233,11 @@
     document.querySelector('.reddit-post').style.color = '';
     document.querySelector('.profile-card').style.backgroundColor = '';
     document.querySelector('.bio').style.color = '';
+    document.querySelector('#user-id').style.color = '';
     document.querySelector('.profile-name').style.color = '';
     document.querySelector('body').style.color = '';
+    document.querySelector('.profile-h5').style.color = '';
+    document.querySelector('#cake').style.color = '';
   }
 
 </script>
