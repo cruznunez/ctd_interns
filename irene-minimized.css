@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.973);
+  }
+  
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .search-image{ 
+    height: 25%;
+  }
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .name{
+    display: flex;
+    align-self: center;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: -.4px;
+    color: #333;
+  }
+
+  .profile{
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+  }
+
+  .message {
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+  }
+
+  .notifcations {
+    display: flex;
+    align-self: center;
+  }
+
+  .settings {
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+  }
+
+  .header-container{
+    justify-content: flex-start;
+    
+  }
+
+  .header{
+    align-items center;
+  }
+
+  .user{
+    font-size: 36px;
+    display: block;
+    font-family: sans-serif;
+    margin-block-start: 1.33em;
+    margin-block-end: .05em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+
+    .bio-container{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+  .bio{
+    width: 350px;
+    font-size: 14px;
+    flex-direction: row;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -.4px;
+    }
+
+    .follower_links{
+      font-size: 14px;
+      font-weight: bold;
+      font-family: sans-serif;
+      display: flex;
+      align-self: baseline;
+    }
+
+.test-container{
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.test{
+  flex-direction: row;
+}
+
+.SearchBoxInput {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(236, 236, 236, 0.973);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  height: 100%;
+  line-height: 20px;
+  outline: none;
+  padding: 0 40px 0 15px;
+  width: 100%;
+  range: src('pinterest_images/pinterest_search-adjusted\ size\ 20x20.png');
+}
