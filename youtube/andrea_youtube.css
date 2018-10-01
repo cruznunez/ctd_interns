@@ -334,3 +334,19 @@ body {
 #left-side_row {
   flex-direction: column;
 }
+
+#links-row {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.link-item {
+  width: auto;
+  margin-right: 100px;
+  margin-bottom: 30px
+}
+
+.link-item a {
+  color: DodgerBlue;
+  font-size: 12px;
+}
