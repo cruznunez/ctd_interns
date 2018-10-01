@@ -203,23 +203,6 @@ body {
   width: 7%;
 }
 
-#main-body {
-  color: white;
-  font-size: 14px;
-  justify-content: space-around;
-}
-
-#main-body .column {
-  width: 25%;
-}
-
-#links-row {
-  width: 800px;
-}
-
-#descripion-container {
-  width: 30%;
-}
 
 #flag-icon {
   width: 20px;
@@ -253,8 +236,9 @@ body {
 }
 
 .white-box-container {
-  width: 30%;
+  width: 50%;
   margin-top: 10px;
+  text-align: center;
 }
 
 .subscribe-button-text {
@@ -262,6 +246,7 @@ body {
   top: 25%;
   font-size: 14px;
   color: white;
+  width: auto;
 }
 
 .banner-nav-option {
@@ -294,15 +279,11 @@ body {
   font-size: 13px;
 }
 
-.link-section-links {
-  margin-bottom: 30px;
-  width: 25%;
-}
-
 .hr-thin {
     border: 0;
     height: 1px;
     background: #333;
+    width: 100%;
     /*background-image: linear-gradient(to right, #333,#ccc, #333);*/
 }
 
@@ -316,4 +297,40 @@ body {
 
 .featured-title {
   margin-top: 25px;
+}
+
+#center-div {
+  width: 100%;
+  position: relative;
+  color: white;
+  font-size: 14px;
+  height: 100%;
+  justify-content: space-around;
+}
+
+#right-column {
+  width: 40%;
+}
+#right-side-row {
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+#channel-row {
+  flex-direction: column;
+  width: 200px;
+}
+
+#stats-row {
+  flex-direction: column;
+  width: 250px;
+}
+
+#left-column {
+  width: 40%;
+}
+
+#left-side_row {
+  flex-direction: column;
 }
