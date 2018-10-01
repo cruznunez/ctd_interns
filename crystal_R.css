@@ -1,0 +1,274 @@
+/* Reset CSS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+/* Body */
+
+body {
+  background-color: #e6ecf0;
+  color: #14171a;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Nav */
+
+nav {
+  background-color: #F8FAFB;
+  border-bottom: 1px solid rgba(0,0,0.25);
+  height: 46px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.links {
+  color: #005FD2;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-center {
+  display: inline-block;
+  left: 0;
+  margin: auto;
+  right: 0;
+  text-align: left;
+  width: 3%;
+  position: absolute;
+}
+
+.nav-right {
+  float: right;
+}
+
+.submit-button {
+  border: none;
+}
+
+.search-twitter {
+  border: 1px;
+  padding: 8px 0px 8px 12px;
+  border-radius: 21px;
+  font-size: 12px;
+  height: 32px;
+  line-height: 16px;
+}
+
+.home {
+  margin-left: 75px;
+}
+
+.btn-primary {
+  margin-left: 10px;
+  margin-right: 75px;
+  text-align: center;
+  border: 1px solid #005FD2;
+  background-color: #005FD2;
+  padding: 6px 16px 6px 16px;
+  color: #F8FAFB;
+  border-radius: 21px;
+}
+
+/* Layout */
+
+div {
+  display: block;
+}
+
+.banner {
+  background-color: #F8FAFB;
+  box-sizing: border-box;
+  height: 60px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  position: relative;
+}
+
+.profile-info {
+  margin-top: 35px;
+  margin-bottom: 26px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.twitter-stats {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+}
+
+.stats-following {
+  display: inline-block;
+  text-align: inherit;
+  margin-bottom: 5px;
+  margin-left: 36%;
+}
+
+.stats-li {
+  display: inline-block;
+  text-align: inherit;
+  margin-bottom: 5px;
+  padding: 11px 15px 11px 15px;
+}
+
+.profile-right {
+  float: right;
+  padding: 11px 0px 11px 15px;
+  margin-left: 2px;
+}
+
+/* Images */
+
+.nav-image {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 40px;
+  width: 40px;
+}
+
+.search-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.cover-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.cover-photo img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.avatar {
+  left: 10%;
+  position: absolute;
+  top: -260%;
+  border: 5px solid #F8FAFB;
+}
+
+/* Typography */
+
+.title {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: left;
+  margin-right: 2px;
+  margin-bottom: 0px;
+}
+
+.screenname {
+  color: #005FD2;
+  display: inline-block;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.intro {
+  color: #14171a;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 12px;
+  word-wrap: break-word;
+}
+
+.location-text {
+  color: #657786;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  position: relative;
+  text-align: left;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.location-icon {
+  color: #657786;
+}
+
+.join-date, .birthdate {
+  color: #005FD2;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 8px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+
+.join-icon, .birthday-icon {
+  color: #005FD2;
+}
+
+.bio {
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.bio-intro {
+  padding-top: 15px;
+}
+
+.bio-final {
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.headline-bio {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: left;
+  margin-right: 2px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.stats-text {
+  color: #657786;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  display: block;
+  text-align: center;
+}
+
+.stats-value {
+  color: #66757f;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  display: block;
+  text-align: center;
+}
