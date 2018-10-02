@@ -3,20 +3,305 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <html lang="en"></html>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="Romina Muni" content="Romina Bio">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+
+            .burgerContainer {
+                margin-left: 10px;
+                margin-right: 20px;
+                margin-top: 5px;
+                float: left;
+            }
+
+            .hamburger {
+                width: 25px;
+                height: 2px;
+                background-color: black;
+                margin: 6px 0;
+            }
+
+            .nav {
+                display: inline-block;
+                z-index: 3000;
+            }
+
+            .icons {
+                float: right;
+                margin-right: 40px;
+            }
+
+            .navbar {
+                width: 100%;
+                height: 44px;
+                background-color:white;
+                top: 0;
+                left: 0;
+                position: fixed; 
+                padding: 10px;
+                /* border-bottom: 1px solid black; */
+                box-shadow: 0px 2px 0px gray;
+                z-index: 10000;
+            }
+
+            .goog {
+                margin-top: 12px;
+                float: left;
+                width: 88px;
+                height: 26px;
+                font-size: 20px;
+                margin-right: 10px;
+                color: gray;
+            }
+
+            .name {
+                margin-top: 12px;
+                float: left;
+                color: gray;
+                height: 26px;
+                font-size: 20px;
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+
+            .searchBar {
+                width: 720px;
+                height: 48px;
+                background: rgba(0,0,0,.1);
+            }
+
+            input {
+                width: 680px;
+                height: 45px;
+                background: rgba(0,0,0,0);
+                float: right;
+                outline: none;
+                border: none;
+                font-size: 20px;
+            }
+
+            i {
+                color: gray;
+                margin-top: 15px;
+                margin-right: 20px;
+            }
+            
+            .fa-search {
+                margin: 14px 0px 0px 12px;
+            }
+
+            .divider {
+                border-left:.5px solid gray;
+                height: 45px;
+                float: left;
+            }
+            .sidebar {
+                background: whitesmoke;
+                width: 400px;
+                height: 1000px;
+                position: fixed;
+                top: 66px;
+                left: 0;
+            }
+
+            .feed {
+                background: whitesmoke;
+                width: 1000px;
+                height:100%;
+                padding: 10px;
+                margin-left: 400px;
+            }
+
+            .content {
+                width: 100%;
+                margin-top: 55px;
+                height: 2000px;
+                background: whitesmoke;
+            }
+
+
+            html, body  {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+
+            .imgCard {
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/2000px-Flag_of_Argentina.svg.png);
+                width: 100%;
+                height: 100%;
+            }
+
+            .main {
+                width: 100%;
+
+            }
+
+            #overlay {
+                position: absolute;
+                z-index: 1000;
+                bottom: 50px;
+                left: 40px;
+                color: white;
+                font-size: 50px;
+            }
+
+            .parallax { 
+                /* The image used */
+                background-image: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/4c410251e0146b2edd2b8b1d64a02047-buenos-aires.jpg?sharp=10&vib=20&w=1200");
+
+                /* Set a specific height */
+                height: 600px;
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+
+            #avatar{
+                border-radius: 50%;
+                border: 2px solid white;
+                width: 60px;
+                height: 60px;
+                margin-bottom: -15px;
+            }
+
+            #name {
+                margin-left: 20px;
+            }
+
+            .communities {
+                width: 100%;
+                height: 100px;
+                margin-top: 60px;
+                color: lightslategray;
+                font-size: 25px;
+            }
+
+            .smallCard {
+                /* Add shadows to create the "card" effect */
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 210px;
+                height: 250px;
+                margin-right: 35px;
+                display: inline-block;
+            }
+
+            /* On mouse-over, add a deeper shadow */
+            .smallCard:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            /* Add some padding inside the card container */
+            .cardContainer {
+                padding: 2px 16px;
+            }
+            
+            .color {
+                width: 100%;
+                height: 50%;
+            }
+            
+            #cardImg {
+                height: 50%;
+                width: 100%;
+            }
+
+            #red {
+                background-color: red;
+            }
+
+            #green {
+                background-color: green;
+            }
+
+            #blue {
+                background-color: blue;
+            }
+
+            #purple {
+                background-color: purple;
+            }
+           
+
+        </style>
+        
     </head>
-    <div>
-        <h1>
-            Romina Muni
-        </h1>
-    <p>
+    <body>
+        <div class="navbar">
+            <div class="burgerContainer nav">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <div class="nav goog">Google+</div>
+            <div class="nav divider"></div>
+            <div class="nav name">Romina Muni</div>
+            <div class="nav searchBar">
+                <div class="nav mag"><i class="fa fa-search" aria-hidden="true"></i></div>
+                <input class="nav search" placeholder="Search Google+">
+            </div>
+            <div class="nav icons">
+                <i class="fa fa-th" aria-hidden="true"></i>
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <ul>
+                    <li>Discover</li>
+                    <li>Join Google+</li>
+                </ul>
+            </div>
+            <div class="feed">
+              <div class="main">
+                
+                <div class="parallax">
+                        <div id="overlay">
+                                <img id='avatar' src="./images/rominaAvatar.png" alt="Avatar"><span id="name">Romina Muni</span>
+                        </div>
+
+                </div>
+                <div class='communities'>Communites and Collections</div>
+                <div class='smallCard'>
+                    <div class='smallImg'><img id='cardImg' src="https://www.bristolgate.com/wp-content/uploads/2018/09/orionthemes-placeholder-image.png"></div>
+                    <div class='color' id='red'></div>
+                </div>
+                <div class='smallCard'>
+                    <div class='smallImg'><img id='cardImg' src="https://www.bristolgate.com/wp-content/uploads/2018/09/orionthemes-placeholder-image.png"></div>
+                    <div class='color' id='blue'></div>
+                </div>
+                    
+                <div class='smallCard'>
+                    <div class='smallImg'><img id='cardImg' src="https://www.bristolgate.com/wp-content/uploads/2018/09/orionthemes-placeholder-image.png"></div>
+                    <div class='color' id='green'></div>
+                </div>
+
+                <div class='smallCard'>
+                    <div class='smallImg'><img id='cardImg' src="https://www.bristolgate.com/wp-content/uploads/2018/09/orionthemes-placeholder-image.png"></div>
+                    <div class='color' id='purple'></div>
+                </div>
+              </div>
+              
+              
+            </div>
+
+        </div>
+        <!-- </div>
+            <p>
             I was born and raised in Buenos Aires, Argentina, where I lived for most of my life. I love food, in general -cooking it and eating it-, but particularly empanadas and pasta...paired with a good wine!
             We (my spouse and pets included) moved to the US in 2015 after carefully choosing Durham for its progressiveness and diversity.
             The immigration process has been a challenge, with some ups and downs along the way. It was an obvious inflexion point in my professional life, and I left the HR world behind to focus on finding my own path where I could combine my passion for creativity, design and problem solving, while also hopefully contributing to the social issues that I am committed to.
             I’ve been working as a freelance translator and independent artist, running my own small creative business for the past two years.
             I’m very happy to be part of Ctd, through which I hope to gather the tools and support I need to reach a new milestone on this coding journey.
             </p>
-        </div>
+        </div> -->
+    </body>
 </html>
