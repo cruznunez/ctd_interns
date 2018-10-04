@@ -1,0 +1,233 @@
+body {
+  background: #36465d;
+  font-family: sans-serif;
+}
+.wrapper {
+  display: grid;
+  grid-gap: .05em;
+  color: hsla(0,0%,100%,.25);
+}
+
+.wrapper > div {
+  padding: 1em;
+}
+
+.headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 13px;
+  border-bottom: .5px solid hsla(0,0%,100%,.25);
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  background-color: rgba(0,0,0,.13);
+  border-radius: 5px;
+  height: 35px;
+  width: 550px;
+  font-size: 15px;
+  margin-top: -15px;
+}
+.search-bar { color: hsla(0,0%,100%,.6);
+ }
+.logo { margin-top: -10px; }
+.text { margin-top: -8px; }
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+
+/* HEADER RIGHT */
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  height: 35px;
+  width: 350px;
+  margin-top: -15px;
+}
+
+.container {
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: 15.5%  69% 15.5%;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 8%  57% 35%;
+  margin-top: 40px;
+}
+/* LEFT --------------------------------------------------------------------------- */
+.left {
+  background-color: #36465d;
+}
+.left > a > img {
+  border-radius: 3px;
+}
+.avatar {
+  padding-top: 45px;
+  border-radius: 3px;
+}
+.avatar img {
+  border-radius: 3px;
+}
+/* CENTER ------------------------------------------------------------------------- */
+.center {
+  background-color: #36465d;
+}
+.content {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 500%;
+}
+.daya-baya {
+  display: flex;
+  background-color: white;
+}
+.daya {
+  display: inline-flex;
+  align-content: stretch;
+  flex: 1 1 auto;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+}
+.x { margin-top: 11px; }
+.xp { margin-top: 6px; }
+.baya {
+  flex: 1 1 auto;
+  padding-top: .05px;
+  padding-bottom: .05px;
+  background-color: white;
+}
+.baya > p {
+  color: gray;
+  margin-left: 15px;
+  font-size: 13px;
+}
+.baya p > a {
+  text-decoration: none;
+  color: deepSkyBlue;
+  font-family: Sans-serif;
+  font-style: normal;
+}
+
+.dashboard {
+  background-color: white;
+  height: 90px;
+  padding-top: 5px;
+  border: 2px solid #36465d;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.dashboard-icons {
+  border-right: 1px solid lightgray;
+  border-right-style:inherit;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: -5px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: gray;
+  text-align: center;
+  font-weight: lighter;
+}
+.dashboard-icons > p { margin-top: 1px; }
+#dashboard-icons { padding-top: 15px; }
+/* RIGHT -------------------------------------------------------------------------- */
+
+ li:first-child {
+   border-top-width: 0!important;
+   border-bottom: 2px solid hsla(0,0%,100%,.25);
+   height: 21px;
+   font-size: 12px;
+ }
+ li:nth-child(6) {
+   border-bottom: 2px solid hsla(0,0%,100%,.25);
+ }
+
+li{
+  list-style: none;
+  height: 53px;
+  padding: 7.5px 0 0 10px;
+  border: 1px solid hsla(0,0%,100%,.25);
+  margin-left: 35px;
+  border-top-width: 0!important;
+  border-right: transparent;
+  border-left: transparent;
+}
+li > img {
+  border-radius: 3px;
+}
+.right_column > li.item {
+  box-sizing: border-box;
+  width: 100%;
+}
+li.item span {
+  margin-top: 1px;
+}
+.follow img {
+  border-radius: 3px;
+}
+.item .tumble_title {
+  color: hsla(0,0%,100%,.6);
+    font-weight: 700;
+    padding: 1px 0 0;
+    line-height: 17px;
+    font-size: 14px;
+
+    text-overflow: clip;
+    max-width: 100%;
+    margin-right: 5px;
+    margin: 0;
+
+    vertical-align: baseline;
+}
+
+.section_header {
+  border: 0px solid transparent;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  padding: 0 10px;
+  color: hsla(0,0%,100%,.25);
+}
+.upside_cat {
+  border-radius: 3px;
+  margin-left: 45px;
+}
+.item1 {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.image > img {
+  border-radius: 3px;
+}
+.item .plus {
+  background-color: gray;
+}
+.item1 small {
+font-weight: lighter;
+}
+#explore {
+  line-height: 15px;
+  font-size: 12px;
+  color: hsla(0,0%,100%,.6);
+  font-weight: lighter;
+}
+#bottom > p {
+  font-size: 12px;
+}
